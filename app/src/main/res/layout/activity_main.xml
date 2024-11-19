@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        app:title="Projeto Priscila"
+        android:gravity="center"
+        android:tooltipText="Meu App Bar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        style="@style/CustomAppBarStyle" />
+
+
+        <!-- EditText Fields -->
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_edit"
+            style="@style/EditTextStyle"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Cadastro Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cadastroButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            style="@style/customButton"
+            />
+
+
+</LinearLayout>
