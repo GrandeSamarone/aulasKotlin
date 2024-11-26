@@ -1,6 +1,7 @@
 package com.example.projetopriscila.activitys
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -44,6 +45,21 @@ class HomeActivity : AppCompatActivity() {
             } else {
                 notificationStatusTextView.text = "Notificações desativadas"
             }
+        }
+
+        val goToCollectionsButton = findViewById<Button>(R.id.goToCollectionsButton)
+        val goToWidgetsButton = findViewById<Button>(R.id.goToWidgetsButton)
+
+        // Botão para abrir a tela de coleções
+        goToCollectionsButton.setOnClickListener {
+            val intent = Intent(this, CollectionsActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Botão para abrir a tela de widgets
+        goToWidgetsButton.setOnClickListener {
+            val intent = Intent(this, WidgetsActivity::class.java)
+            startActivity(intent)
         }
     }
 

@@ -52,4 +52,21 @@
         android:layout_height="wrap_content"
         android:text="Notificações desativadas"
         android:gravity="center" />
+
+
+    <!-- Adicione esses novos botões no layout existente -->
+    <Button
+        android:id="@+id/goToCollectionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir para Coleções"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/goToWidgetsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir para Widgets"
+        android:layout_marginTop="8dp" />
+
 </LinearLayout>

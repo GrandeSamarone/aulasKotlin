@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText para adicionar itens -->
+    <EditText
+        android:id="@+id/addItemEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adicionar item"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Botões para interações -->
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Item"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trocar Adicionar/Filtrar"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/showSetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Itens Únicos"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ListView para exibir itens -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextView para exibir o mapa -->
+    <TextView
+        android:id="@+id/mapTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mapa de preços"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
