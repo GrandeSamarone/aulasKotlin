@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para Nome do Animal -->
+    <EditText
+        android:id="@+id/animalNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome do animal"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo para Tipo do Animal -->
+    <Spinner
+        android:id="@+id/animalTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo para Idade do Animal -->
+    <EditText
+        android:id="@+id/animalAgeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a idade do animal"
+        android:inputType="number" />
+</LinearLayout>

@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">ProjetoPriscila</string>
     <string name="name_edit">name</string>
+    <string name="app_name">Gerenciamento de Animais</string>
+    <string name="add_animal">Adicionar Animal</string>
+    <string name="animal_details">Detalhes do Animal</string>
+    <string name="falar">Falar</string>
+    <string name="nadar">Nadar</string>
+    <string name="domestico">Doméstico</string>
+    <string name="selvagem">Selvagem</string>
+    <string name="marinho">Marinho</string>
 </resources>
